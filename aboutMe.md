@@ -13,4 +13,4 @@ group: navigation
 
 邮箱：lincc343@163.com
 
-github:[terenceli](https://github.com/lc343)
+github:[lc343](https://github.com/lc343)

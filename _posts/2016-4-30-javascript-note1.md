@@ -14,7 +14,7 @@ tags: [JavaScript, 笔记]
 4.offsetLeft <br>
 5.offsetTop <br>
 由于浏览器的差异性，得到的值并不一致，分别从五个属性开始分析。
-## 一、offsetParent ##
+<h2>一、offsetParent </h1>
 <p>offsetParent属性返回一个对象的引用，是指用来定位的父级，不一定与parentNode的值相等。</p>
 <p>1.若当前元素的父级元素没有进行CSS定位（position为absolute或relative，offsetParent为body。</p>
 <p>2.若当前元素的父级元素有CSS定位（position为absolute或relative，offsetParent为离元素最近的定位父级元素。</p>

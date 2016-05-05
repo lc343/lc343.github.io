@@ -66,7 +66,7 @@ tags: [JavaScript, 笔记]
 <br>2.第二种有CSS定位，在`id=#myDiv`添加代码`position: relative;`
 这段代码在Chrome浏览器中的效果如图：<br>
 ![](/assets/img/note1/2.png)<br>
-## 二、offsetHeight和 offsetWidth ##
+<h2> 二、offsetHeight和 offsetWidth </h2>
 <br>当前元素的父级元素有CSS定位，添加代码如下：
 
      	test.innerHTML = "Browser:" + navigator.userAgent + "<br>" +
@@ -75,8 +75,9 @@ tags: [JavaScript, 笔记]
             "<p>offsetHeight:"+test.offsetWidth+"</p>"+
             "<p>offsetLeft:"+test.offsetLeft+"</p>"+
             "<p>offsetTop:"+test.offsetTop+"</p>";
-<br>
+<p>
 各个浏览器下的效果图如下：<br>
+</p>
 1.Chrome效果图<br>
 1.![](/assets/img/note1/2.1.png)<br>
 2.Firefox效果图<br>
@@ -96,7 +97,7 @@ offsetWidth为元素的可视宽度，这个宽度包括元素的宽度，垂直
 <p>
 	offsetWidth=(border-left-width)+(padding-left)+(width)+(padding-right)+(border-right-width)
 </p>
-## 三、offsetLeft和 offsetTop ##
+<h2> 三、offsetLeft和 offsetTop </h2>
 <br>由二可知offsetWidth与offsetHeight，这两个属性的值只与该元素有关，与周围元素（父级和子级元素无关），但是offsetLeft和 offsetTop这两个属性与offsetParent有关。
 <p>
 1.当前元素的父级元素有CSS定位，除了IE8效果图效果不一样，Chrome，Firefox,IE7/9，Opera这两个属性值都相等。
@@ -122,12 +123,12 @@ offsetTop指的是元素的上外边框到包含元素的上内边框之间的�
 2.![](/assets/img/note1/3.3.png)<br>
 与之前父级元素CSS定位时的两个属性值不相等，
 <p>
-offsetLeft=(body的border-left-width)+(body的padding-left)+(当前元素的margin-left)+(当前元素的前n个padding-left)[当嵌套时加]+(当前元素的border-left-width)<br>
-offsetTop=(body的border-top-width)+(body的padding-top)+(当前元素的margin-top)+(当前元素的前n个padding-top)[当嵌套时加]+(当前元素的border-top-width)两式都满足<br>
+offsetLeft=(body的border-left-width)+(body的padding-left)+(当前元素的margin-left)+(当前元素的前n个padding-left)[当嵌套时加]+(当前元素的border-left-width)。<br>
+offsetTop=(body的border-top-width)+(body的padding-top)+(当前元素的margin-top)+(当前元素的前n个padding-top)[当嵌套时加]+(当前元素的border-top-width)两式都满足。<br>
 <b>这个公式在当没有一个div嵌套在div中，各个浏览器效果图如下所示。</b>
 </p>
-offsetLeft=(body的border-left-width)+(body的padding-left)+(当前元素的margin-left)+(当前元素的border-left-width)；IE8/9,Chrome，Opera满足该公式
-offsetTop=(body的border-top-width)+(body的padding-top)+(当前元素的margin-top)+(当前元素的border-top-width)；IE8/9,Chrome，Opera满足该公式
+offsetLeft=(body的border-left-width)+(body的padding-left)+(当前元素的margin-left)+(当前元素的border-left-width)；IE8/9,Chrome，Opera满足该公式。
+offsetTop=(body的border-top-width)+(body的padding-top)+(当前元素的margin-top)+(当前元素的border-top-width)；IE8/9,Chrome，Opera满足该公式。
 IE8/9效果图如图所示：<br>
 2.1.![](/assets/img/note1/4.1.png)<br>
 2.1.Chrome效果图如图所示：<br>

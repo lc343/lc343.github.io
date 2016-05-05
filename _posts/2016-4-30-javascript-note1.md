@@ -66,7 +66,7 @@ tags: [JavaScript, 笔记]
 <br>2.第二种有CSS定位，在`id=#myDiv`添加代码`position: relative;`
 这段代码在Chrome浏览器中的效果如图：<br>
 ![](/assets/img/note1/2.png)<br>
-## 二、offsetHeight和 offsetWidth##
+## 二、offsetHeight和 offsetWidth ##
 <br>当前元素的父级元素有CSS定位，添加代码如下：
 
      	test.innerHTML = "Browser:" + navigator.userAgent + "<br>" +
@@ -96,8 +96,8 @@ offsetWidth为元素的可视宽度，这个宽度包括元素的宽度，垂直
 <p>
 	offsetWidth=(border-left-width)+(padding-left)+(width)+(padding-right)+(border-right-width)
 </p>
-## 三、offsetLeft和 offsetTop##
-有二可知offsetWidth与offsetHeight，这两个属性的值只与该元素有关，与周围元素（父级和子级元素无关），但是offsetLeft和 offsetTop这两个属性与offsetParent有关。
+## 三、offsetLeft和 offsetTop ##
+<br>由二可知offsetWidth与offsetHeight，这两个属性的值只与该元素有关，与周围元素（父级和子级元素无关），但是offsetLeft和 offsetTop这两个属性与offsetParent有关。
 <p>
 1.当前元素的父级元素有CSS定位，除了IE8效果图效果不一样，Chrome，Firefox,IE7/9，Opera这两个属性值都相等。
 offsetLeft指的是元素的左外边框到包含元素的左内边框之间的像素距离。

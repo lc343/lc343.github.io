@@ -7,15 +7,13 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
-#       Terenceli的技术博客
+#       LC的技术博客
 title : 不忘初心 方得始终
 tagline: Full of miracles
 author :
-    name : Terenceli
-    email : liq3ea@163.com
-    github : terenceli
-    twitter : Terenclie
-    feedburner : Terenceli
+    name : LC
+    email : lincc343@163.com
+    github : lc343
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -25,7 +23,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://terenceli.github.io
+production_url : http://lc343.github.io
 highlighter: rough
 markdown: kramdown
 kramdown:
@@ -86,7 +84,7 @@ JB :
     comments :
         provider : disqus
         disqus :
-            short_name : terenceli
+            short_name : lc
         livefyre :
             site_id : 123
         intensedebate :

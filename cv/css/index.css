@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Calibri;
+}
+h1{
+    text-shadow:1px 2px #22c3aa,2px 4px #aee2d9;
+}
+.section{
+    background-color:#5bc0de;
+    color:#eef3f0;
+    padding:50px;
+    transition:0.5s
+}
+.center{
+    text-align:center;
+}
+/*section1*/
+#section1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 30px;
+    color: #fff;
+}
+#section1 p.title{
+    margin:0.25em 0 0 0;
+    font-size: 5em;
+    color: #fff;
+}
+#section1 p.subtitle{
+    color: #fff;
+}
+ #avatar{
+    width:200px;
+    height:200px;
+    border:10px solid #aee2c7;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -o-border-radius:50%;
+    border-radius:50%
+}
+
+/*section2*/
+#section2 .intro{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50px;
+}
+
+#section2 h1,
+#section2 p{
+    text-shadow: 1px 5px 20px #000;
+}
+.col-1{
+    width:100px;
+    float:left
+}
+.col-2{
+    width:300px;
+    float:left
+}
+
+span {
+    font-size: 3em;
+}
+#section2 p{
+    margin-right: 50px;
+}
+.clear{
+    clear: both;
+}
+.bottom{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+}
+a.highlight:hover{
+    color:#008a75
+}
+/*section3*/
+#section3 h1,
+#section3 p{
+    text-shadow: 1px 5px 20px #000;
+    color: #fff;
+}
+#section3 .intro{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50px;
+}
+.tag-panel{
+    margin:15px auto
+}
+.tag{
+    line-height: 2em;
+    font-size: 2em;
+    width: 150px;
+    background-color:#096254;
+    color:#aee2d9;
+    border-radius:3px;
+    display:inline-block;
+    padding:2px 8px;
+    margin-right:3px;
+    margin-bottom:3px;
+    opacity:0.5
+}
+.tag.familiar{
+    opacity:1
+}
+.tag.known{
+    opacity:0.75
+}
+
+/*section4*/
+.education{
+    font-size: 2em;
+}
+#section4 .edu{
+    font-size: 1.5em;
+    margin: 15px;
+}
+
+
+/*section5*/
+#section5 .intro{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 30px;
+}
+
+
+#infoMenu li a{
+    color: #fff;
+}
+

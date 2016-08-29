@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lin Chen's CV</title>
+    <link rel="stylesheet" type="text/css" href="lib/jquery.pagepiling.css" />
+    <link rel="stylesheet" type="text/css" href="css/examples.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <script src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/jquery.pagepiling.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+    <ul id="menu">
+       <li data-menuanchor="page1" class="active"><a href="#page1">Home</a></li>
+       <li data-menuanchor="page2" ><a href="#page2">Project</a></li>
+       <li data-menuanchor="page3" ><a href="#page3">Professions</a></li>
+       <li data-menuanchor="page4" ><a href="#page4">Education</a></li>
+       <li data-menuanchor="page5" ><a href="#page5">Internship</a></li>
+    </ul>
+    <div id="pagepiling">
+
+        <!--section1-->
+        <div class="section center" id="section1">
+            <img id="avatar" src="images/lc.jpg" /><br/>
+            <p class="title">Lin Chen</p>
+            <p class="subtitle">热爱前端的初学者</p>
+            <p><a href="mailto:lincc343@163.com">lincc343@163.com</a></p>
+            <a href="https://github.com/lc343" target="_blank" title="Follow me on GitHub">
+                <img class="github" src="images/github_1.png">
+            </a>
+            <h2><a href="pdf/Web Front-End Linchen.pdf" target="_blank" class="highlight">下载简历</a></h2>
+        </div>
+
+        <!--section2-->
+        <div class="section" id="section2">
+            <h1 class="intro">项目经验</h1>
+            <div class="row">
+                <div class="col-1">
+                    <a href="https://github.com/lc343/snake" target="_blank" alt="Snake">
+                        <img src="images/snake.png"/>
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="https://github.com/lc343/snake" target="_blank" alt="Snake"><span>Snake</span></a>
+                    <p>贪吃蛇游戏</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <a href="https://github.com/lc343/chat" target="_blank" alt="Chat">
+                        <img src="images/chat.png"/>
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="https://github.com/lc343/chat" target="_blank" alt="Chat"><span>Chat</span></a>
+                    <p>聊天室通讯</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <a href="#" target="_blank" alt="Shool">
+                        <img src="images/school.png"/>
+                    </a>
+                </div>
+                <div class="col-2">
+                    <p>基于Web的虚拟校园建设</p>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="center bottom"><a href="http://github.com/lc343" target="_blank" class="highlight">And More on GitHub</a></div>
+        </div>
+
+    <!--section3-->
+        <div class="section" id="section3">
+            <h1 class="intro">擅长技能</h1>
+            <div class="tag-panel">
+                <div class="tag familiar">HTML</div>
+                <div class="tag familiar">CSS</div>
+            </div>
+            <div class="tag-panel">
+                <div class="tag familiar">JavaScript</div>
+                <div class="tag familiar">jQuery</div>
+            </div>
+            <div class="tag-panel">
+                <div class="tag known">HTML5</div>
+                <div class="tag know">PHP</div>
+                <div class="tag know">C语言</div>
+            </div>
+        </div>
+        <div class="section" id="section4">
+            <h1>教育背景</h1>
+            <h2 class="education">西安电子科技大学</h2>
+            <h3 class="edu">硕士研究生</h3>
+            <div>网络与信息安全学院 信息安全专业</div>
+            <div>2017年7月毕业</div>
+            <div>研究群加密方向</div>
+        </div>
+        <div class="section" id="section5">
+            <h1>实习</h1>
+            <h2 class="education">甘肃万维有限责任公司</h2>
+            <div>2013年9月 - 2014年2月</div>
+            <p>用户角色模块开发，数据维护，Web页面测试</p>
+            <div>调研并撰写全国各省市智慧旅游平台建设的信息文档</div>
+        </div>
+
+    </div>
+
+
+
+    <script>window.jQuery || document.write('<script src="lib/jquery-1.11.1.min.js"><\/script>');</script>
+</body>
+</html>

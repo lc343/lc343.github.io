@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "【JavaScript】offset笔记"
+title: "【offset笔记】"
 description: "读书笔记"
 category: 技术
-tags: [JavaScript, 笔记]
+tags: [offset, 笔记]
 ---
 {% include JB/setup %}
 
